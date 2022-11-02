@@ -155,7 +155,7 @@ img {
 }
 
 .hero-title {
-  min-width: 696px;
+  width: 696px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
@@ -296,10 +296,14 @@ padding-bottom: 0;
   font-style: normal;
 }
 
-..bottom-contacts {
+.bottom-contacts {
   display: flex;
   flex-direction: column;
-  gap: 9px;
+ }
+
+.bottom-contacts-item + .bottom-contacts-item {
+  /* gap: 9px; */
+  margin-top: 9px;
 }
 
 .bottom-contacts .link:hover,
